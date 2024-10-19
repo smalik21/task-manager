@@ -103,7 +103,12 @@ export default function TaskItem({
           <h3 className="title">{task.title}</h3>
           <p className="description">{task.description}</p>
           <div className="item-operations">
-            <p>Priority: {task.priority}</p>
+            <p>
+              Priority
+              <span className={`priority ${task.priority}`}>
+                {task.priority}
+              </span>
+            </p>
             <span>
               <button className="edit" onClick={() => setIsEditing(true)}>
                 Edit
