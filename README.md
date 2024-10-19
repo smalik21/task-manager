@@ -12,8 +12,8 @@ Make sure you have Node.js (v14 or above) installed on your system.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/task-management-app.git
-   cd task-management-app
+   git clone https://github.com/smalik21/task-manager.git
+   cd task-manager
    ```
 2. **Install the dependencies:**
    ```bash
